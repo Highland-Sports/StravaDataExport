@@ -1,0 +1,14 @@
+[project]
+name = "strava-data-export"
+version = "0.1.0"
+description = "Fetch Strava athlete activity data and report pace threshold validations."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+strava-export = "strava_export.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
